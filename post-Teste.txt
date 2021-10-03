@@ -1,0 +1,53 @@
+{
+"titulo": "Duvida Spring Boot",
+"mensagem": "Acesso ao banco de Dados",
+     
+     "curso":{
+       "id":1,
+        "nome": "Spring Boot",
+}
+
+"autor":{
+       "id":1,
+         "nome": "Fred Ribeiro",
+         "email": "fredweb3@gmail.com",
+}
+
+}
+
+
+
+
+METODO POST
+
+{
+ "id":1,
+ "titulo": "Duvida Spring Boot - Novo",
+ "mensagem": "Acesso ao banco de Dados Mysql",
+ "idCurso": 1,    
+  "idAutor":1 
+}
+
+
+
+content-type: application/json 
+
+
+
+
+
+METODO PUT
+
+
+
+{
+ "id":1,
+ "titulo": "ALTERADO - Duvida Spring Boot - Novo",
+ "mensagem": "ALTERADO - Acesso ao banco de Dados Mysql",
+ "idCurso": 1,    
+  "idAutor":1 
+}
+
+
+
+content-type: application/json 
